@@ -244,3 +244,25 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link:visited {
   color: #aaa;
 }
+
+
+.project-container{
+  border-bottom: 2px solid lightgrey;
+}
+
+.project-container h2{
+  text-align: left;
+  padding: 0 1rem;
+}
+
+.project-container img{
+  margin: auto;
+  display: block;
+  padding: .5rem;
+  max-width: 100%;
+}
+
+.project-container p{
+  max-width: 100%;
+  padding: 1rem;
+}
