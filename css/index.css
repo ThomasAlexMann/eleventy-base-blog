@@ -266,3 +266,9 @@ a[href].direct-link:focus:visited,
   max-width: 100%;
   padding: 1rem;
 }
+
+#me{
+  max-width: 250px;
+  margin: 1rem auto;
+  display: block;
+}

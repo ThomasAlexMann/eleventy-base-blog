@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 3
 ---
 
-
+<img id="me"  class="rounded-circle" src="/img/me.jpg" alt="Thomas mann">
 
 <div class="accordion" id="accordionExample">
   <div class="accordion-item">
