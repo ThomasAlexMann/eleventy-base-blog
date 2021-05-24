@@ -269,6 +269,13 @@ a[href].direct-link:focus:visited,
 
 #me{
   max-width: 250px;
+  width: 100%;
   margin: 1rem auto;
   display: block;
+}
+
+form{
+  width: 100%;
+  max-width: 450px;
+  margin: auto;
 }

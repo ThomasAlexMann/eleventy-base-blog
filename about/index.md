@@ -61,3 +61,25 @@ eleventyNavigation:
   </div>
   
 </div>
+
+<h2 class="mt-4">Send Me a Message</h2>
+<form class="mb-4 p-2 border" name="contact" method="POST" data-netlify="true">
+  <p class="mb-3">
+    <label class="form-label d-block">Your Name: <input type="text" name="name" class="form-control d-block"/></label>   
+  </p>
+  <p class="mb-3">
+    <label class="form-label d-block">Your Email: <input type="email" name="email" class="form-control d-block"/></label>
+  </p>
+  <p class="mb-3">
+    <label class="form-label">Your Role: <select name="role[]" multiple class="form-control">
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p class="mb-3 d-block">
+    <label class="form-label d-block">Message: <textarea name="message" class="form-control"></textarea></label>
+  </p>
+  <p class="mb-3">
+    <button type="submit" class="btn btn-primary mx-auto d-block">Send</button>
+  </p>
+</form>
