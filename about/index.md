@@ -63,7 +63,10 @@ eleventyNavigation:
 </div>
 
 <h2 class="mt-4">Send Me a Message</h2>
-<form class="mb-4 p-2 border" name="contact" method="POST" data-netlify="true">
+<form class="mb-4 p-2 border" name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" >
+  <p class="d-none">
+    <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+  </p>
   <p class="mb-3">
     <label class="form-label d-block">Your Name: <input type="text" name="name" class="form-control d-block"/></label>   
   </p>
