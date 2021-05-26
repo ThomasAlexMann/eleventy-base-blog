@@ -68,7 +68,7 @@ eleventyNavigation:
     <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
   </p>
   <p class="mb-3">
-    <label class="form-label d-block">Your Name: <input type="text" name="name" class="form-control d-block"/></label>   
+    <label class="form-label d-block">Your Name: <input type="text" name="name" class="form-control d-block" minlength="1" maxlength="30"/></label>   
   </p>
   <p class="mb-3">
     <label class="form-label d-block">Your Email: <input type="email" name="email" class="form-control d-block"/></label>
