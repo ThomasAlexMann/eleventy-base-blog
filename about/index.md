@@ -80,7 +80,7 @@ eleventyNavigation:
     </select></label>
   </p>
   <p class="mb-3 d-block">
-    <label class="form-label d-block">Message: <textarea name="message" class="form-control" required="required"></textarea></label>
+    <label class="form-label d-block">Message: <textarea name="message" class="form-control" required="required" maxlength="1000"></textarea></label>
   </p>
   <p class="mb-3">
     <button type="submit" class="btn btn-primary mx-auto d-block">Send</button>
