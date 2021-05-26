@@ -68,19 +68,19 @@ eleventyNavigation:
     <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
   </p>
   <p class="mb-3">
-    <label class="form-label d-block">Your Name: <input type="text" name="name" class="form-control d-block" minlength="1" maxlength="30"/></label>   
+    <label class="form-label d-block">Your Name: <input type="text" name="name" class="form-control d-block" required="required" maxlength="50"/></label>   
   </p>
   <p class="mb-3">
-    <label class="form-label d-block">Your Email: <input type="email" name="email" class="form-control d-block"/></label>
+    <label class="form-label d-block">Your Email: <input type="email" name="email" class="form-control d-block" required="required"/></label>
   </p>
   <p class="mb-3">
-    <label class="form-label">Your Role: <select name="role[]" multiple class="form-control">
+    <label class="form-label">Your Role: <select name="role[]" multiple class="form-control" required="required">
       <option value="leader">Leader</option>
       <option value="follower">Follower</option>
     </select></label>
   </p>
   <p class="mb-3 d-block">
-    <label class="form-label d-block">Message: <textarea name="message" class="form-control"></textarea></label>
+    <label class="form-label d-block">Message: <textarea name="message" class="form-control" required="required"></textarea></label>
   </p>
   <p class="mb-3">
     <button type="submit" class="btn btn-primary mx-auto d-block">Send</button>
