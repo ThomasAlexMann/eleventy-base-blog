@@ -1,7 +1,7 @@
 ---
 layout: layouts/blog.njk
 tags: blog
-title: The last few sessions - Git, SSG and Forms
+title: Git, SSG and Forms
 date: 2021-05-27T18:35:00.949Z
 thumbnail: /images/uploads/pexels-luis-gomes-546819-1-.jpg
 rating: 3
