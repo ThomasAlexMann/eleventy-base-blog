@@ -1,0 +1,19 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-blog
+---
+<h1>{{ title }}</h1>
+
+<div class="d-flex justify-content-between flex-wrap">
+  <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+  <p>
+    <span  style="font-weight: bold;">Rating:</span>
+    {{ rating }}⭐️
+  </p>
+</div>
+
+<img class="blog-img" src="{{ thumbnail | url }}"/>
+
+
+{{ content | safe }}
+
