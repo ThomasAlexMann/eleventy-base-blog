@@ -4,7 +4,7 @@ title: Projects
 templateClass: tmpl-standard
 eleventyNavigation:
   key: Projects
-  order: 3
+  order: 4
 ---
 
 
