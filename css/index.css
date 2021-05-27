@@ -279,3 +279,10 @@ form{
   max-width: 450px;
   margin: auto;
 }
+
+.blog-img{
+  max-width: 250px;
+  width: 100%;
+  margin: 1rem auto;
+  display: block;
+}
