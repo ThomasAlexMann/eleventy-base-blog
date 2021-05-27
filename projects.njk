@@ -10,11 +10,11 @@ title: My Projects
 <h1>{{title}}</h1>
 
 {% for project in collections.project %}
-
-  <h3 class="text-start">{{project.data.title}}</h3>
-  <img class="blog-img" src="{{ project.data.thumbnail }}"/>
+<div class="project-container">
+  <h3 class="">{{project.data.title}}</h3>
+  <img src="{{ project.data.thumbnail }}"/>
   <p class=" ">
     {{ project.templateContent | safe }}
   </p>
-
+</div>
 {%endfor%}

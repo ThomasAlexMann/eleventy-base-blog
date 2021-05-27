@@ -250,6 +250,7 @@ a[href].direct-link:focus:visited,
 
 .project-container{
   border-bottom: 2px solid lightgrey;
+  margin: 2rem 0;
 }
 
 .project-container h2{
