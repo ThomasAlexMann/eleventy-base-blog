@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/blog.njk
 tags: blog
 title: The last few sessions - Git, SSG and Forms
 date: 2021-05-27T18:35:00.949Z

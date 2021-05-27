@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/blog.njk
 tags: blog
 title: Starting the JAMstack Bootcamp at the Coders Guild
 date: 2021-05-13T18:30:08.766Z
