@@ -4,7 +4,7 @@ title: Contact
 templateClass: tmpl-post
 eleventyNavigation:
   key: Contact
-  order: last
+  order: 3
 ---
 
 <h2 class="mt-4">Send Me a Message</h2>
