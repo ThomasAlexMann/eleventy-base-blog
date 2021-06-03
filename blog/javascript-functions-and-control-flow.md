@@ -1,7 +1,7 @@
 ---
 layout: layouts/blog.njk
 tags: blog
-title: Javascript - functions and control flow
+title: JavaScript - functions and control flow
 date: 2021-06-03T18:00:54.013Z
 thumbnail: /images/uploads/pexels-markus-spiske-1089440-1-.jpg
 rating: 5
