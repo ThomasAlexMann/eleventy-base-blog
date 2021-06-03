@@ -13,8 +13,6 @@ title: My Projects
 <div class="project-container">
   <h3 class="">{{project.data.title}}</h3>
   <img src="{{ project.data.thumbnail }}"/>
-  <p class=" ">
     {{ project.templateContent | safe }}
-  </p>
 </div>
 {%endfor%}
