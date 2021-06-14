@@ -8,7 +8,7 @@ rating: 4
 ---
 
 
-In this session we learned about pseudocode and comments. I have learned that Pseudocode is when you write the instructions or logic for a program without getting involved with the specifics of the programming implementation. Pseudocode allows you design and think through a solution before you spend time programming it. 
+In this session we learned about pseudocode and comments. I have learned that Pseudocode is when you write the instructions or logic for a program without getting involved with the specifics of the programming implementation. Pseudocode allows you to design and think through a solution before you spend time programming it. 
 
 Pseudocode is it is not based on any programming language but it helps if it is laid out in a similar style to actual code. A piece of pseudocode can be turned into actual code using many different languages. 
 
